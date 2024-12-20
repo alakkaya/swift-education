@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-education}",
+            "name": "Debug swift-education",
+            "program": "${workspaceFolder:swift-education}/.build/debug/swift-education",
+            "preLaunchTask": "swift: Build Debug swift-education"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-education}",
+            "name": "Release swift-education",
+            "program": "${workspaceFolder:swift-education}/.build/release/swift-education",
+            "preLaunchTask": "swift: Build Release swift-education"
+        }
+    ]
+}
